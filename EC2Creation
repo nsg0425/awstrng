@@ -1,0 +1,6 @@
+Created ec2admingrp having AmazonEC2FullAccess policy
+Created ec2adminuser under ec2admingrp
+Enabled console access for user
+Login with the user and created an ec2 instance with "Delete on Termination" checked
+Terminated the instance
+Verified that volume is deleted under Volumes
