@@ -1,6 +1,18 @@
+Assignment 1: EC2 Creation
 Created ec2admingrp having AmazonEC2FullAccess policy
 Created ec2adminuser under ec2admingrp
 Enabled console access for user
 Login with the user and created an ec2 instance with "Delete on Termination" checked
 Terminated the instance
 Verified that volume is deleted under Volumes
+
+
+Assignment 2: RDS Creation
+In singapore region created rds with t2.micro
+In security group, configure the rule such that it allows incoming traffic on 3306 which is default port
+Created an EC2 instance 
+Connect to EC2instance public ip from putty (provided ppd file during connect)
+Make sure that Mysql is installed and connect db instace through endpoint 
+Created databases and tables
+VPC is not editables but subnet can be changed to other available subnets
+
