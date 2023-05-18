@@ -10,9 +10,10 @@ Verified that volume is deleted under Volumes
 Assignment 2: RDS Creation
 In singapore region created rds with t2.micro
 In security group, configure the rule such that it allows incoming traffic on 3306 which is default port
-Created an EC2 instance 
-Connect to EC2instance public ip from putty (provided ppd file during connect)
-Make sure that Mysql is installed and connect db instace through endpoint 
-Created databases and tables
-VPC is not editables but subnet can be changed to other available subnets
+Created an EC2 instance , make sure that 'Auto assign public ip' is enabled
+Connect to EC2 instance public ip from putty (provided ppk file during connect)
+Install Mysql and connect to db instace through endpoint 
+After successful login created database and tables
+
+VPC is not editable but subnet can be changed to other available subnets
 
