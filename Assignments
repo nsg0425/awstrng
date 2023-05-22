@@ -17,3 +17,10 @@ After successful login created database and tables
 
 VPC is not editable but subnet can be changed to other available subnets
 
+Assignment 3: AWS organizations
+Create an AWS account
+Invited through email to other account iD
+Created an organizationatl unit and move the member to that OU who have s3 full access
+Create and attach a deny policy for s3 full access. 
+Creation of S3 bucket will fail though user has full access to s3.
+
